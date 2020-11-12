@@ -1,0 +1,327 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+ 
+
+#principal{
+    width: 1000px;
+    height: 900px;
+    margin: auto;
+}
+
+ 
+
+.div_borda{
+    border-radius: 10px;
+    border: 2px solid #000;
+    box-sizing: border-box;
+}
+
+ 
+
+.espaco_topo{
+    margin-top: 5px;
+}
+
+ 
+
+#banner{
+    height: 190px;
+}
+
+ 
+
+#img_banner{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+ 
+
+#menu{
+    height: 35px;
+    background-color: antiquewhite;
+}
+
+ 
+
+
+#menu ul {
+    padding: 7px;
+}
+
+ 
+
+#menu ul li{
+    display: inline;
+}
+
+ 
+
+#menu ul li a{
+    color: #000;
+    text-decoration: none;
+    padding: 0 45px;
+}
+
+ 
+
+#menu ul li a:hover{
+    text-decoration: underline;
+}
+
+ 
+
+
+#artigo{
+    width: 795px;
+    height: 445px; 
+    float: left;
+}
+
+ 
+
+#lado_esquerdo{
+    width: 800px;
+    height: 450px; 
+    float: left;
+}
+
+ 
+
+.art_layout{
+    width: 262px;
+    height: 220px;
+    float: left;
+}
+
+ 
+
+h1{
+    text-align: center;
+    font: bolder 16px verdana;
+    padding: 30px 0 10px;
+}
+
+ 
+
+.artigo_p{
+    padding: 8px 20px;
+    font: 12px verdana;
+}
+
+ 
+
+.link_leia_mais{
+    float: right;
+}
+
+ 
+
+#art_1 {
+
+ 
+
+}
+
+ 
+
+#art_2{
+    margin: 0 5px; 
+}
+
+ 
+
+#img1_art2{
+    float: left;
+    width: 65px;
+    padding-right: 10px;
+}
+
+ 
+
+#art_3{
+
+ 
+
+}
+
+ 
+
+#art_4{
+    width: 796px;
+    height: 220px; 
+}
+
+ 
+
+#img1_art4{
+    float: left;
+    width: 130px;
+    padding-right: 10px;
+}
+
+ 
+
+#menu_2{
+    width: 199px;
+    height: 445px; 
+    float: left;
+    margin-bottom: 5px;
+}
+
+ 
+
+#banner_2{
+    width: 199px;
+    height: 445px; 
+    float: right;
+    margin-bottom: 5px;
+}
+
+ 
+
+#menu_lateral{
+    width: 199px;
+    height: 445px; 
+    float: left;
+    margin-bottom: 5px;
+}
+
+ 
+
+#sistema{
+    width: 795px;
+    height: 445px; 
+    float: right;
+}
+
+ 
+
+#menu_2{
+    width: 199px;
+    height: 445px; 
+    float: left;
+    margin-bottom: 5px;
+}
+
+ 
+
+ul, ol{
+    padding: 10px 40px;    
+}
+
+ 
+
+ul{
+    list-style-type: circle;
+}
+
+ 
+
+#rodape{
+    height: 35px; 
+    background-color: antiquewhite;
+    clear: both;
+}
+
+ 
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin-left: 10px;
+}
+
+ 
+
+.table_pesquisa{
+    margin-top: 50px;
+}
+
+ 
+
+th, td {
+    border-bottom: 1px solid #ddd;
+}
+
+ 
+
+/*table, th, td {
+    border: 1px solid black;
+}*/
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+ 
+
+th, td {
+    padding: 5px 15px;
+    /*text-align: left;*/
+}
+
+ 
+
+#form_email{
+    display: block;
+    padding:10px 0 10px 20px;
+    width: 96%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+label{
+    width:85px;
+}
+
+#email_textarea{
+    width: 80%;
+    height: 180px;
+}
+
+.botao_esquerda{
+    margin-left: 85px;
+}
+
+.botao_pesquisa {
+    margin-left: 8px;
+}
+
+.botao{
+    width: 100px;
+    margin-right: 10px;
+}
+
+.div_flex{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.mensagemSucesso{
+    padding: 10px; 
+    width: 80%;
+    background-color: #3366ff;
+    color: #fff;
+}
+
+.mensagemErro{
+    padding: 10px; 
+    width: 80%;
+    background-color: #ff0033;
+    color: #fff;
+}
+
+.mensagemAlerta{
+    padding: 10px;
+    background: #ffff00;
+    width: 80%;
+}
+
+.espaco_img{
+    display: inline;
+    margin-right: 10px;
+}
